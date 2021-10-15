@@ -1,29 +1,28 @@
 {
-    "name": "Team-Profile-Generator",
-    "version": "1.0.0",
-    "description": "",
-    "main": "script.js",
-    "directories": {
-      "lib": "lib",
-      "test": "test"
-    },
-    "scripts": {
-      "test": "jest --verbose test/*"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/azs6189/Team-Profile-Generator.git"
-    },
-    "author": "",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/azs6189/Team-Profie-Generator/issues"
-    },
-    "homepage": "https://github.com/azs6189/Team-Profile-Generator#readme",
-    "dependencies": {
-      "inquirer": "^6.3.1"
-    },
-    "devDependencies": {
-      "jest": "^24.8.0"
-    }
+  "name": "Team-Profile-Generator",
+  "version": "1.0.0",
+  "description": "app to create team profile generator ",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azs6189/Team-Profile-Generator.git"
+  },
+  "author": "Allie Soliz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azs6189/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/azs6189/Team-Profile-Generator#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "inquirer": "^7.1.0"
   }
+}
